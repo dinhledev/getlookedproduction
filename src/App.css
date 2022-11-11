@@ -1,0 +1,227 @@
+.bg-myBlue{
+  background-color: rgb(7, 7, 179);
+}
+.navbar-custom{
+  background-color: #e1b42f !important;
+}
+.cardTitleCustom {
+  text-align: center;
+  font-size: 70px !important;
+}
+
+
+.signInHeader{
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px;
+}
+.Login{
+  margin: 100px;
+  padding: 12px;
+  max-width: 400px !important;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  /* box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.65); */
+}
+.Registration{
+  margin: 100px;
+  padding: 12px;
+  max-width: 400px !important;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+.Profile{
+  margin: 100px;
+  padding: 12px;
+  max-width: 600px !important;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+.about{
+  margin-top: 60px;
+  padding: 12px;
+  height: 3000px;
+}
+.home{
+  padding: 12px;
+}
+.homeButton{
+  width: "100px";
+  height: "100px"
+}
+
+.homeDisplay{
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px 0;
+  margin-top: 10px;
+  display: flex;
+}
+.disp1{
+  width: 25%;
+  border: 1px solid #e6e6e6;
+  height: 100%;
+}
+.disp2{
+  width: 75%;
+  height: 100%;
+  border: 1px solid #e6e6e6;
+  margin-left: 10px;
+}
+.ldisp{
+  padding: 20px 10px;
+  border-bottom: 1px solid #cccccc;
+  cursor: pointer;
+}
+.ttl{
+  font-size: 20px;
+  color: #050505;
+}
+.subSecond{
+  font-size: 15px;
+  color: #050505;
+}
+.MyPlanCustom {
+  margin-top: 20px !important;
+}
+.subttl{
+  font-size: 14px;
+  color: #4b4b4b;
+}
+.section{
+  padding: 5px 10px;
+}
+.secttl{
+  font-size: 14px;
+  color: #5c5c5c;
+}
+.secsubttl{
+  font-size: 18px;
+  color: #121212;
+}
+.fullWidth{
+  width: 100%;
+  background-color: #2d5c6e !important;
+  border: 0 !important;
+  margin-top: 10px;
+}
+.active{
+  background-color: azure;
+  border-left: 2px solid #2d5c6e;
+}
+.header{
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  color: white;
+  /*background-color: #198754;*/
+  background-color: #2d5c6e;
+  margin: 10px;
+}
+.body{
+  background-color: #f7f7f7;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.edit{
+  margin: 10px;
+  background-color: #2d5c6e !important;
+  border: 0 !important;
+  width: 25%;
+}
+.submit{
+  margin: 10px;
+  background-color: #2d5c6e !important;
+  border: 0 !important;
+  width: 25%;
+}
+.cancel{
+  margin: 10px;
+  background-color: #ddd !important;
+  border: 0 !important;
+  width: 25%;
+  color: #000 !important;
+}
+
+.singleDisplay{
+  height: 100vh;
+  overflow-y: auto;
+  padding: 20px 0;
+  margin-top: 60px;
+  display: flex;
+}
+
+.root{
+  position: relative;
+}
+.child{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: blue;
+  cursor: pointer;
+}
+.org_filter {
+  width: 25%;
+}
+.btnFilterCustom {
+  border: 2px solid #2d5c6e !important;
+  font-weight: 500 !important;
+}
+.keyWords {
+  border: 1px solid #dddde0;
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* paging css */
+.pagingWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination {
+  list-style: none;
+  outline: none;
+  
+}
+.customerImage{
+  background-image: url('./images/sports.jpg'); height: 400px;
+}
+.maskCustom{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* .pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+} */
+/* end paging css */
